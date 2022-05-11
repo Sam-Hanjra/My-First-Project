@@ -1,0 +1,302 @@
+section{
+    max-width: 1550px;
+   background-color: #ffffff;
+    margin: auto;
+    font-family: Poppins ;
+    
+    padding: 20px;
+}
+
+h3{
+    color: #363636;
+    font-size: 1rem;
+}
+h4{
+    color:#3C8394;
+    
+}
+
+/* container1 */
+
+.logo img{
+    position: absolute;
+    margin-left: 2.5rem;
+   
+} 
+
+/* container2 */
+.container2{
+    background-color: #ffff;
+    width: 350px;
+    min-height: 380px;
+    margin:2rem auto 2rem auto;
+
+  
+    box-shadow:  2px 5px 10px #888888;
+    border-radius: 0.5rem;
+
+
+   
+  
+}
+.container2-top h2{
+    font-size: 1rem;
+    margin-left: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #363636;
+   
+    
+}
+
+
+.container2-bottom{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.text{
+    width: 90%;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(226, 233, 226);
+    border-radius: 5px;
+   
+   
+    
+}
+
+.icon{
+    position: relative;
+    
+}
+span{
+    color:#4E4E4E;
+    font-size: 1rem;
+    margin: 0.2rem;
+    
+   
+}
+.container2 h3{
+    text-align: right;
+    color:#4E4E4E;
+    font-size: 0.8rem;
+}
+.container2 .iconimg{
+    position: absolute;
+   
+    top: 1rem;
+    left:16rem
+  
+}
+
+
+
+.signin {
+    background-color: #1161ed;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    border: none;
+   
+  }
+  .buttons{
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+  }
+
+  .facebook{
+    border: 1px solid rgba(117, 105, 105, 0.6);
+    border-radius: 0.3rem;
+    background-color: white;
+  
+  
+
+   
+    display: flex;
+    align-items: center;
+   
+ 
+
+   
+   
+  
+  }
+  .buttons-img{
+      padding-right:0.5rem;
+  }
+
+  .cointainer2-lastdiv{
+     
+      display: flex;
+      justify-content: center;
+      padding-bottom: 1rem;
+  }
+  .color-fortext{
+    color:#3C8394;
+    font-size: 1rem;
+  }
+
+
+  /* container3 */
+  .container3{
+      display: flex;
+      justify-content: center;
+      font-size:0.7rem;
+      margin-right:2rem;
+      margin-bottom: 1rem;
+      margin-top: -4rem;
+
+  }
+
+  @media screen and (max-width: 414px){
+
+    /* container1 */
+
+.logo img{
+    position: absolute;
+    margin-left: 1.0rem;
+    width: 2rem;
+    height: 2rem;
+   
+} 
+
+
+
+      /* container2 */
+.container2{
+    background-color:#fff;
+    width: 350px;
+    /* min-height: 280px; */
+    margin:0.1rem auto 2rem auto;
+
+  
+    box-shadow:  2px 5px 10px #888888;
+    border-radius: 0.5rem;
+
+
+   
+  
+}
+.container2-top h2{
+    font-size: 1rem;
+    margin-left: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #363636;
+   
+    
+}
+
+
+.container2-bottom{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.text{
+    width: 90%;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(226, 233, 226);
+    border-radius: 5px;
+    
+   
+   
+    
+}
+
+.icon{
+    position: relative;
+    
+}
+span{
+    color:#4E4E4E;
+    font-size: 1rem;
+    margin: 0.2rem;
+    
+   
+}
+.container2 h3{
+    text-align: right;
+    color:#4E4E4E;
+    font-size: 0.8rem;
+}
+.container2 .iconimg{
+    position: absolute;
+   
+    top: 1rem;
+    left:16rem
+  
+}
+
+
+
+.signin {
+    background-color: #1161ed;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    border: none;
+   
+  }
+  .buttons{
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+  }
+
+  .facebook{
+    border: 1px solid rgba(117, 105, 105, 0.6);
+    border-radius: 0.3rem;
+    background-color: white;
+  
+  
+
+   
+    display: flex;
+    align-items: center;
+   
+ 
+
+   
+   
+  
+  }
+  .buttons-img{
+      padding-right:0.5rem;
+  }
+
+  .cointainer2-lastdiv{
+     
+      display: flex;
+      justify-content: center;
+      padding-bottom: 1rem;
+  }
+  .color-fortext{
+    color:#3C8394;
+    font-size: 1rem;
+  }
+
+    /* container3 */
+    .container3{
+        display: flex;
+        justify-content: center;
+        font-size:0.5rem;
+        margin-right:2rem;
+        margin-bottom: 1rem;
+        margin-top: -4rem;
+  
+    }
+
+
+  }
