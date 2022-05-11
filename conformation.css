@@ -1,0 +1,135 @@
+html,body{
+    margin: 0%;
+    background-color: #EFEDED;
+}
+section
+{
+max-width: 1550px;
+/* background-color: #ffffff; */
+font-family: Poppins ;
+
+}
+
+/* container1 */
+.container1
+
+{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;    
+    box-shadow:  2px 2px 5px #aeadad;
+ 
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.container1-img1
+{
+width: 3rem;
+height: 3rem;
+padding-top:0.5rem;
+padding-left: 3rem;
+}
+
+.container1-img2
+{
+width: 1rem;
+height: 1rem;
+padding-right: 3rem;
+padding-top:1.3rem;
+}
+
+
+
+/* container2 */
+
+
+
+.container2{
+    background-color: #ffff;
+    margin-top:1rem;
+
+    padding:3rem; 
+   
+}
+
+.button1
+{
+    padding:1rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.6rem;
+    border: none;
+  
+}
+
+.button2
+{
+    padding:1rem;
+    background-color: #ffff;
+   
+    border-radius: 0.6rem;
+    border: none;
+    margin-left:2rem;
+}
+
+
+
+
+/* coantainer3 */
+.container3
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding:3 rem; 
+    
+}
+
+.container3 div{
+    margin-right: 2rem;
+}
+
+/* container4 */
+.container4
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    /* grid-template-rows: 15rem; */
+    background-color: #ffff;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.grid-1
+{
+padding-left: 2rem;
+}
+p
+{
+    font-size:0.7rem;
+    
+}
+h3{
+    padding-top: 0.5rem;
+    color: aqua;
+    font-size:1rem;
+
+}
+h1
+{
+    font-size:1.2rem;
+}
+
+h4{
+
+    color:#565656;
+    font-size:0.8rem;
+}
+.grid-1 img{
+    padding-top: 5.2rem;
+    width:3rem;
+    height:3rem;
+}
