@@ -1,48 +1,45 @@
-html,body{
+html,
+body {
     margin: 0%;
     background-color: #EFEDED;
 }
-section
-{
-max-width: 1550px;
-margin: auto;
 
-font-family: Poppins ;
+section {
+    max-width: 1550px;
+    margin: auto;
+
+    font-family: Poppins;
 
 
 }
 
 /* container1 */
-.container1
-
-{
+.container1 {
     background-color: #ffff;
-    
+
     display: flex;
-    justify-content: space-between;    
-    box-shadow:  2px 2px 5px #aeadad;
- 
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px #aeadad;
+
 }
-.logo
-{
+
+.logo {
     display: flex;
     align-items: center;
 }
 
-.container1-img1
-{
-width: 3rem;
-height: 3rem;
-padding-top:0.5rem;
-padding-left: 3rem;
+.container1-img1 {
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
 }
 
-.container1-img2
-{
-width: 1rem;
-height: 1rem;
-padding-right: 3rem;
-padding-top:1.3rem;
+.container1-img2 {
+    width: 1rem;
+    height: 1rem;
+    padding-right: 3rem;
+    padding-top: 1.3rem;
 }
 
 
@@ -51,64 +48,60 @@ padding-top:1.3rem;
 
 
 
-.container2{
-  
-    margin-top:1rem;
+.container2 {
 
-    padding:0rem 3rem  ; 
-    
-   
+    margin-top: 1rem;
+
+    padding: 0rem 3rem;
+
+
 }
 
-.button1
-{
-    padding:0.8rem;
+.button1 {
+    padding: 0.8rem;
     background-color: #ffff;
     color: black;
     border-radius: 0.4rem;
     border: none;
-  
+
 }
 
-.button2
-{
-    padding:0.8rem;
+.button2 {
+    padding: 0.8rem;
     color: white;
     background-color: black;
     border-radius: 0.4rem;
-    border:2px solid #C0C0C0;
-    margin-left:2rem;
+    border: 2px solid #C0C0C0;
+    margin-left: 2rem;
 }
 
-.button3
-{
-    padding:0.8rem;
+.button3 {
+    padding: 0.8rem;
     color: white;
     background-color: #0FAEF4;
     border-radius: 0.4rem;
-    border:2px solid #C0C0C0;
+    border: 2px solid #C0C0C0;
     position: absolute;
-    right:3rem;
+    right: 3rem;
 }
 
-.status{
+.status {
 
-    margin-top:1rem;
+    margin-top: 1rem;
 
-    padding:0rem 3rem  ; 
+    padding: 0rem 3rem;
 
 }
 
 
-.seconadry-input
-{
+.seconadry-input {
     font-size: 0.6rem;
     color: black;
-  border:none;
-  background-color: #ffff;
-  
-   
-   
+    border: none;
+    background-color: #ffff;
+
+
+
     line-height: 1.4rem;
     width: 98%;
     padding: 0.6rem;
@@ -119,92 +112,458 @@ padding-top:1.3rem;
 
 
 /* table1 */
-.table1
-{
-    background-color:#EFEDED;
-    margin-top:1rem;
+.table1 {
+    background-color: #EFEDED;
+    margin-top: 1rem;
 
-    padding:0rem 3rem  ; 
-    
+    padding: 0rem 3rem;
+
 }
 
 .myDIV {
-    height:300px;
-  
-  }
-  .myTable { 
-    width:100%;
+    height: 300px;
+
+}
+
+.myTable {
+    width: 100%;
     table-layout: auto;
 
-    
-   
+
+
     border-spacing: 0.0rem 0.2rem;
-    
-   
-  }
-  .myTable td{
-    
+
+
+}
+
+.myTable td {
+
     background-color: #ffff;
     padding: 0.9rem;
-    
-    
-   
-  }
-  .myTable tr{
-    
-   font-size: 0.8rem;
-    
-    
-   
-  }
-  .table-1st-tr{
-     
-      color: #6C6C6C;
 
-  }
+
+
+}
+
+.myTable tr {
+
+    font-size: 0.8rem;
+
+
+
+}
+
+.table-1st-tr {
+
+    color: #6C6C6C;
+
+}
 
 
 
 /* container4 */
-.container4
-{
+.container4 {
     display: grid;
-    grid-template-columns: 33% 33% 33% ;
+    grid-template-columns: 33% 33% 33%;
     /* grid-template-rows: 15rem; */
     background-color: #ffff;
-  padding-left: 1rem;
-  padding-right: -5rem;
- padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: -5rem;
+    padding-top: 4rem;
 }
 
-.grid-1
-{
-padding-left: 2rem;
+.grid-1 {
+    padding-left: 2rem;
 }
-p
-{
-    font-size:0.8rem;
-    
+
+p {
+    font-size: 0.8rem;
+
 }
-h3{
+
+h3 {
     padding-top: 0.5rem;
     color: aqua;
-    font-size:1rem;
+    font-size: 1rem;
 
 }
-h1
-{
-    font-size:1.2rem;
+
+h1 {
+    font-size: 1.2rem;
 }
 
-h4{
+h4 {
 
-    color:#565656;
-    font-size:0.8rem;
+    color: #565656;
+    font-size: 0.8rem;
 }
-.grid-1 img{
+
+.grid-1 img {
     padding-top: 5.2rem;
-    width:3rem;
-    height:3rem;
+    width: 3rem;
+    height: 3rem;
 }
+
+/* media qurie ssection start from here */
+
+@media screen and (min-width: 10px) and (max-device-width:375px) {
+
+    /* container1 */
+    .container1 {
+        max-width: 100%;
+        background-color: #ffff;
+
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 2px 2px 5px #aeadad;
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .container1-img1 {
+        width: 3rem;
+        height: 3rem;
+        padding-top: 0.5rem;
+        padding-left: 3rem;
+    }
+
+    .container1-img2 {
+        width: 1rem;
+        height: 1rem;
+        padding-right: 3rem;
+        padding-top: 1.3rem;
+    }
+
+
+
+    /* container2 */
+
+
+
+    .container2 {
+
+        margin-top: 1rem;
+        
+
+        padding: 0rem 3rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .button1 {
+        color: black;
+        background-color: #ffff;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+       
+        border-radius: 0.4rem;
+        border: none;
+
+    }
+
+    .button2 {
+      
+        color: white;
+        background-color: black;
+        
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+
+        padding: 0.8rem;
+       
+       
+        border-radius: 0.4rem;
+        border: none;
+       
+    }
+
+    .button3 {
+        
+        background-color: #0FAEF4;
+        padding: 0.8rem;
+       
+       
+        right: 0rem;
+        border-radius: 0.4rem;
+        border: none;
+        position: relative;
+      
+       
+    }
+
+    .status {
+
+        margin-top: 1rem;
+
+        padding: 0rem 3rem;
+
+    }
+
+
+    .seconadry-input {
+        font-size: 0.6rem;
+        color: black;
+        border: none;
+        background-color: #ffff;
+
+
+
+        line-height: 1.4rem;
+        width: 92%;
+        padding: 0.6rem;
+        /* margin-bottom:2rem; */
+    }
+
+
+
+
+    /* table1 */
+    .table1 {
+        background-color: #EFEDED;
+        margin-top: 1rem;
+
+        margin-bottom: 0.8rem;
+        /* padding-top: inherit;
+        padding-left: inherit;
+        padding-right:inherit; */
+       
+       width: 250px;
+       
+        overflow: scroll;
+        scrollbar-color: green;
+    }
+    .myDIV {
+        width: fit-content;
+      
+
+    }
+
+    .myTable {
+        width: 100%;
+        table-layout: auto;
+
+
+
+        border-spacing: 0.0rem 0.2rem;
+
+
+    }
+
+    .myTable td {
+
+        background-color: #ffff;
+        padding: 0.9rem;
+
+
+
+    }
+
+    .myTable tr {
+
+        font-size: 0.8rem;
+
+
+
+    }
+
+    .table-1st-tr {
+
+        color: #6C6C6C;
+
+    }
+
+
+
+/* container4 */
+.container4 {
+    display: grid;
+    grid-template-columns: 100%;
+   
+    /* background-color: #ffff; */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-top: inherit;
+    padding-left: inherit;
+  
+    
+   
+  
+  
+}
+
+.grid-1 {
+    padding-left: 1rem;
+    border: 1px solid gray;
+    padding-right: 2rem;
+}
+
+p {
+    font-size: 0.8rem;
+
+}
+
+h3 {
+    padding-top: 0.5rem;
+    color: aqua;
+    font-size: 1rem;
+
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h4 {
+
+    color: #565656;
+    font-size: 0.8rem;
+}
+
+.grid-1 img {
+    padding-top: 5.2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 378px) and (max-device-width:768px) {
+
+
+
+    /* table1 */
+    .table1 {
+        background-color: #EFEDED;
+        margin-top: 1rem;
+
+        margin-bottom: 0.8rem;
+       
+    
+       
+       width: 610px;
+       
+        overflow: scroll;
+        scrollbar-color: green;
+    }
+    .myDIV {
+        width: fit-content;
+      
+
+    }
+
+    .myTable {
+        
+        table-layout: auto;
+
+
+
+        border-spacing: 0.0rem 0.2rem;
+
+
+    }
+
+    .myTable td {
+
+        background-color: #ffff;
+        padding: 0.9rem;
+
+
+
+    }
+
+    .myTable tr {
+
+        font-size: 0.8rem;
+
+
+
+    }
+
+    .table-1st-tr {
+
+        color: #6C6C6C;
+
+    }
+
+
+
+/* container4 */
+.container4 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+   
+    
+  
+    
+   
+  
+  
+}
+
+.grid-1 {
+    padding-left: 1rem;
+   
+    padding-right: 2rem;
+   margin-left: 1rem;
+
+   margin-bottom: 2rem;
+}
+
+.grid-2 {
+    width: 100%;
+    
+    
+   margin-left: 11rem;
+
+   margin-bottom: 2rem;
+}
+p {
+    font-size: 1rem;
+
+}
+.class-grid1:last-child
+{
+    width: 100%;
+}
+
+h3 {
+    padding-top: 0.5rem;
+    color: aqua;
+    font-size: 1rem;
+
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h4 {
+
+    color: #565656;
+    font-size: 0.8rem;
+}
+
+.grid-1 img {
+    padding-top: 5.2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+
+}
+    
 
